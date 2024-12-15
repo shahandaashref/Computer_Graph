@@ -33,7 +33,7 @@ void beginGL_POLYGON(float d1,float d, float r) {
 void beginGL_POLYGONScy(float d1, float d, float r) {
 	float x, y, angle;
 	glBegin(GL_POLYGON);
-	for (angle = 0; angle < 2 * 3.14159; angle += 0.01) {
+	for (angle = 0; angle <  3.14159; angle += 0.01) {
 		x = d1 + r * cos(angle);
 		y = d + r * sin(angle);
 		glVertex2f(x , y );
